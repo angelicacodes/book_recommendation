@@ -1,4 +1,4 @@
-# book_recommendation
+# ProxLib: A Book Recommendation System
 Capstone project for Flatiron School's Data Science program
 
 ## TABLE OF CONTENTS
@@ -32,13 +32,23 @@ The home repository contains the project environment and information about this 
 This ReadMe is divided into sections addressing each step of the Cross-Industry Standard Process for Data Mining(CRISP-DM) approach for this project.
 
 ## Business Understanding 
+
+
 What is choice? How to we choose?
 
 Choice is the act of picking or deciding between two or more possibilities. 
 
 How about when there are sometimes hundreds of thousands of possibilities? How can we possibly choose? Or better put, how can we know that we are making the right choice?
 
+[Image](
+
 Just like in this row upon row of books—how do we best chose one if we haven’t read and possibly don’t know anything about the book? We might ask a friend for a recommendation. Similarly, businesses have sought to address this choice overload by providing recommendations to their clients/buyers on what products they might enjoy. 
+
+In his book, [Recommendation Engines](https://mitpress.mit.edu/books/recommendation-engines), [Michael Schrage](http://ide.mit.edu/about-us/people/michael-schrage), visiting fellow at the MIT Sloan School of Management’s Initiative on the Digital Economy writes, “Recommendation inspires innovation: that serendipitous suggestion—that surprise—not only changes how you see the world, it transforms how you see—and understand—yourself. Successful recommenders promote discovery of the world and one’s self,recommenders aren’t just about what we might want to buy; they’re about who we might want to become.” 
+
+Citing Schrage's book, [Strategy+Business magazine](https://www.strategy-business.com/article/What-people-like-you-like?gko=d2e94) points that about **30% of e-commerce revenues around the world come from recommendations.**  
+
+Content based vs. Collaborative
 
 Today, I am going to share with you a book recommendation system that uses collaborative filtering to predict what a customer will rate a certain book—which will in turn give a book recommendation the customer is likely to enjoy. 
 
@@ -105,4 +115,9 @@ During the data cleaning process I:
 
 
 ## Potential Next Steps
+
+
+## Additional sources
+
+[Strategy and Business] (https://www.strategy-business.com/article/What-people-like-you-like?gko=d2e94)
 
