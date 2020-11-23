@@ -130,7 +130,9 @@ Further phases could include:
 ## Additional sources
 
 Image credits in order of appearance:
-- XYZ
+- Photo by [Susan Yin](https://unsplash.com/@syinq?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
+- Photo by [Laura Kapfer](https://unsplash.com/@kapfii?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
+
 
 
 
