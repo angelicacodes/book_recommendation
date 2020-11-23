@@ -1,5 +1,5 @@
 # ProxLib: A Book Recommendation System
-Capstone project for Flatiron School's Data Science program
+ PROJECT OVERVIEW HERE
 
 ## TABLE OF CONTENTS
 
@@ -32,7 +32,7 @@ The home repository contains the project environment and information about this 
 This ReadMe is divided into sections addressing each step of the Cross-Industry Standard Process for Data Mining([CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)) approach for this project.
 
 ## Business Understanding 
-
+--Add stakeholders
 
 What is choice? How to we choose?
 
@@ -48,7 +48,7 @@ In his book, [Recommendation Engines](https://mitpress.mit.edu/books/recommendat
 
 Citing Schrage's book, [Strategy+Business magazine](https://www.strategy-business.com/article/What-people-like-you-like?gko=d2e94) points that about **30% of e-commerce revenues around the world come from recommendations.**  
 
-Content based vs. Collaborative
+##### Content based vs. Collaborative
 
 Today, I am going to share with you a book recommendation system that uses collaborative filtering to predict what a customer will rate a certain book—which will in turn give a book recommendation the customer is likely to enjoy. 
 
@@ -68,7 +68,7 @@ There are a total of 484 books being reviewed
 
 Ratings consist of 1-5 stars with 1 being the lowest and 5 being the highest positive rating. 
 
-COLLABORATIVE FILTERING
+##### COLLABORATIVE FILTERING
 
 I am using the model-based collaborative filtering approach which looks at the ratings that are available to predict those that are missing.
 
@@ -80,14 +80,16 @@ At a very basic level, what the model does is fill in the missing ratings with e
 For example, if the model does a good job, it will likely recommend that I read Nancy Drew because it is likely that I will give it a high rating because other users who overlapped in ratings with me and had similar high ratings to my same books, rated Nancy Drew high.  
 
 
-LONG TAIL
+##### LONG TAIL
 
 Often recommendation systems have what it called a long tail distribution— this means that some items have more ratings because they are more common or popular— for household goods this could be toilet paper and soap, and for movies it could be Avengers:edgame. These are at the top of the tail because they outweigh a lot of other items in their respective categories.
 
 NOT LONG TAIL PROBLEM:
 This dataset does not have the long tail problem.  There are so many options for books, and a wide array of tastes that it is unlikely that books would fall into this problem as we see here. There are some that have more ratings than others, but not so substantially of a few high over many low.
 
-Metrics available:
+##### Metrics available:
+
+
 
 ## Data Preparation
 
@@ -111,10 +113,12 @@ During the data cleaning process I:
 
 ## Evaluation
 
-
+##### Cross-Validation
 
 
 ## Potential Next Steps
+
+<img align= "right" src="https://github.com/angelicacodes/book_recommendation/blob/28bd65dbd927984b7a69eb39f38729856d312e68/reports/Visualizations/laura-kapfer-hmCMUZKLxa4-unsplash.jpg" width="150" height="300">
 
 
 ## Additional sources
@@ -122,3 +126,7 @@ During the data cleaning process I:
 Image credits in order of appearance:
 - XYZ
 
+
+
+
+**Capstone project for Flatiron School's Data Science program**
