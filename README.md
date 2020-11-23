@@ -40,7 +40,7 @@ Choice is the act of picking or deciding between two or more possibilities.
 
 How about when there are sometimes hundreds of thousands of possibilities? How can we possibly choose? Or better put, how can we know that we are making the right choice?
 
-[Image](
+<img align= "right" src="https://github.com/angelicacodes/book_recommendation/blob/main/reports/Visualizations/susan-yin-2JIvboGLeho-unsplash.jpg" width="400" height="200">
 
 Just like in this row upon row of books—how do we best chose one if we haven’t read and possibly don’t know anything about the book? We might ask a friend for a recommendation. Similarly, businesses have sought to address this choice overload by providing recommendations to their clients/buyers on what products they might enjoy. 
 
@@ -119,5 +119,6 @@ During the data cleaning process I:
 
 ## Additional sources
 
-[Strategy and Business] (https://www.strategy-business.com/article/What-people-like-you-like?gko=d2e94)
+Image credits in order of appearance:
+- XYZ
 
