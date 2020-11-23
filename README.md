@@ -50,7 +50,7 @@ Codex “estimates that 11 % of book buyers make about 46% of recommendations”
 
 ## Data Understanding
 
-To build the recommendation system I have scrapped the data from Goodreads.com—the largest community for reviewing and recommending books. This data will be used to train and test the model.
+To build the recommendation system I have scrapped the data from [Goodreads](https://www.goodreads.com/)--the largest community for reviewing and recommending books. This data will be used to train and test the model.
 
 There the a total of 54,387 ratings
 The ratings come from 27,642 reviewers
@@ -62,7 +62,7 @@ COLLABORATIVE FILTERING
 
 I am using the model-based collaborative filtering approach which looks at the ratings that are available to predict those that are missing.
 
-To build the model I am using PySparks Alternating Least Squares(ALS) which works well with Sparce matrixes. The ratings dataframe is  99.60% empty.
+To build the model I am using [PySpark's Alternating Least Squares(ALS)](https://spark.apache.org/docs/2.2.0/ml-collaborative-filtering.html) which works well with sparce matrixes. The ratings dataframe is  99.60% empty.
 
 
 At a very basic level, what the model does is fill in the missing ratings with estimations of predicted ratings. It does this by looking at ratings that are filled in.
@@ -77,15 +77,19 @@ Often recommendation systems have what it called a long tail distribution— thi
 NOT LONG TAIL PROBLEM:
 This dataset does not have the long tail problem.  There are so many options for books, and a wide array of tastes that it is unlikely that books would fall into this problem as we see here. There are some that have more ratings than others, but not so substantially of a few high over many low.
 
+Metrics available:
 
 ## Data Preparation
 
 
-Because my scrapper took reviews based on books found on a specific genre's page, there was overlap between the book ratings.
+Because my scrapper took reviews based on books found on a specific genre's page, there were duplicates between the book ratings because they may have been classified under multiple genres--such as one book falling into fiction, historical fiction, and history genres.
 
 During the data cleaning process I:
--took out the duplicate data left by the scrapping
--
+- combined the multiple genre book and reviews table to make one combined data frame
+- took out the duplicate data left by the scrapping
+- removed extraneous text
+- removed text in mixed data type columns, such as the word "pages" from the pages columns so that column could be an integer data type
+- 
 
 
 
