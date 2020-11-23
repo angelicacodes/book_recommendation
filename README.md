@@ -120,6 +120,12 @@ During the data cleaning process I:
 
 <img align= "right" src="https://github.com/angelicacodes/book_recommendation/blob/28bd65dbd927984b7a69eb39f38729856d312e68/reports/Visualizations/laura-kapfer-hmCMUZKLxa4-unsplash.jpg" width="150" height="300">
 
+Further phases could include:
+- Adding more data
+- Natural Language Processing on reviews
+- Content-based filtering 
+- Deployment of model to interactive form 
+
 
 ## Additional sources
 
