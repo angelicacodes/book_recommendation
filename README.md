@@ -29,7 +29,7 @@ The home repository contains the project environment and information about this 
 [Read Me](README.md)
 
 
-This ReadMe is divided into sections addressing each step of the Cross-Industry Standard Process for Data Mining(CRISP-DM) approach for this project.
+This ReadMe is divided into sections addressing each step of the Cross-Industry Standard Process for Data Mining([CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)) approach for this project.
 
 ## Business Understanding 
 
