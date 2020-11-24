@@ -34,6 +34,14 @@ This ReadMe is divided into sections addressing each step of the Cross-Industry 
 ## Business Understanding 
 --Add stakeholders
 
+The Covid-19 pandemic has shown a pivot by businesses of all sizes across many industries. When local farmers stoped making deliveries to local restaurants that were shut down during shelter in place and grocery stores were being emptied out by panicked consumers, the farmers saw an opening. They set up systems to deliver to homes rather than restaurants. Many did not have a website before, but now do. Businesses have pivoted to include e-commerce. For example, this [local farmer](https://martinsfarmtotable.com/about/) writes "When the pandemic lockdowns hit, I decided to sell direct to you, the home cook. And you, in this precarious moment in time, need to have good, healthy ingredients to make food at home. **My goal is to both keep my farm alive and nourish you and your community**."  And according to the [Harvard Business Review(HBR)](https://hbr.org/2020/07/how-businesses-have-successfully-pivoted-during-the-pandemic), this is one of the successful conditions of a business pivot--"Pivoting is a lateral move that creates enough value for the customer and the firm to share." This farmer is providing something that the consumer needs(fresh food), in a way that will keep their buisness going. They are providing this service by making it easier on the consumer, as well as themselves to track orders, by building an online ordering service. This is just one example.  What are the consequences for operating in "business as usual" terms in a new normal?  HBR tells us that, "it does weed out business models that fail to pivot toward the new reality." Not only during pandemics, but business models are having to adapt and change to different realities as they grow, as time changes.
+
+Brick and morter Bookstores and booksellers have also shifted to online sales. 
+
+not only during the pandemic, but how they will operate afterwards. 
+
+
+
 What is choice? How to we choose?
 
 Choice is the act of picking or deciding between two or more possibilities. 
@@ -47,6 +55,8 @@ Just like in this row upon row of books—how do we best chose one if we haven�
 In his book, [Recommendation Engines](https://mitpress.mit.edu/books/recommendation-engines), [Michael Schrage](http://ide.mit.edu/about-us/people/michael-schrage), visiting fellow at the MIT Sloan School of Management’s Initiative on the Digital Economy writes, “Recommendation inspires innovation: that serendipitous suggestion—that surprise—not only changes how you see the world, it transforms how you see—and understand—yourself. Successful recommenders promote discovery of the world and one’s self,recommenders aren’t just about what we might want to buy; they’re about who we might want to become.” 
 
 Citing Schrage's book, [Strategy+Business magazine](https://www.strategy-business.com/article/What-people-like-you-like?gko=d2e94) points that about **30% of e-commerce revenues around the world come from recommendations.**  
+
+
 
 ##### Content based vs. Collaborative
 
