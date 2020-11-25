@@ -92,7 +92,7 @@ Often recommendation systems have what it called a long tail distribution— thi
 
 This dataset does not have the long tail problem. There are so many options for books, and a wide array of tastes that it is unlikely that books would fall into this problem as we see here. There are some that have more ratings than others, but not so substantially of a few high over many low.
 
-![histogram](src= https://github.com/angelicacodes/book_recommendation/blob/main/reports/Visualizations/book_ratings.png width="200" height="200")
+![histogram](https://github.com/angelicacodes/book_recommendation/blob/main/reports/Visualizations/book_ratings.png)
 
 In this histogram we can see that there are more ratings distributed among more books.
 
