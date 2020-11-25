@@ -15,7 +15,7 @@ The home repository contains the project environment and information about this 
 [Final Report Notebook](notebooks/final)
 
 ### Reports
-[Executive Summary](reports/presentation)
+[Executive Summary](reports/Executive Summary)
 
 [Visualizations](reports/Visualizations)
 
@@ -96,7 +96,7 @@ Often recommendation systems have what it called a long tail distribution— thi
 
 This dataset does not have the long tail problem. There are so many options for books, and a wide array of tastes that it is unlikely that books would fall into this problem as we see here. There are some that have more ratings than others, but not so substantially of a few high over many low.
 
-![histogram](https://github.com/angelicacodes/book_recommendation/blob/main/reports/Visualizations/book_ratings.png)
+<img src="https://github.com/angelicacodes/book_recommendation/blob/main/reports/Visualizations/book_ratings.png" width="600" height="300">
 
 In this histogram we can see that there are more ratings distributed among more books.
 
@@ -129,6 +129,9 @@ Best RMSE: 1.22
 
 
 ## Evaluation
+
+<img src="https://github.com/angelicacodes/book_recommendation/blob/main/reports/Visualizations/Screen%20Shot%202020-11-25%20at%2011.42.46%20AM.png" width="400" height="100">
+
 
 To evaluate how well this model is predicting, as mentioned before, I’ve chosen to use the Root Mean Square Error(RMSE) metric.  This metric essentially let’s us know how far an observed value is from the model’s prediction.
 
