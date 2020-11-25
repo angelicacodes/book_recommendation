@@ -76,24 +76,25 @@ Book and user id's were strings that will be converted into numerical form, rati
 
 Having an accurate recommendation system will be important because want customers to trust the recommendation system so that they continue to use it in the future. 
 
-##### COLLABORATIVE FILTERING
+##### Collaborative Filtering
 
 I am using the model-based collaborative filtering approach which looks at the ratings that are available to predict those that are missing.
 
-
 At a very basic level, what the model does is fill in the missing ratings with estimations of predicted ratings. It does this by looking at ratings that are filled in.
 
+It goes through each of the users and sees which users are similar to you based on ratings you have in common. 
 
+The model learns from those ratings that are already there.
 
-##### LONG TAIL
+##### Distribution of Data
 
-Often recommendation systems have what it called a long tail distribution— this means that some items have more ratings because they are more common or popular— for household goods this could be toilet paper and soap, and for movies it could be Avengers:edgame. These are at the top of the tail because they outweigh a lot of other items in their respective categories.
+Often recommendation systems have what it called a long tail distribution— this means that some items have more ratings because they are more common or popular— for household goods this could be toilet paper and soap, and for movies it could be Avengers:Endgame. These are at the top of the tail because they outweigh a lot of other items in their respective categories.
 
-NOT LONG TAIL PROBLEM:
-This dataset does not have the long tail problem.  There are so many options for books, and a wide array of tastes that it is unlikely that books would fall into this problem as we see here. There are some that have more ratings than others, but not so substantially of a few high over many low.
+This dataset does not have the long tail problem. There are so many options for books, and a wide array of tastes that it is unlikely that books would fall into this problem as we see here. There are some that have more ratings than others, but not so substantially of a few high over many low.
 
-![histogram](https://github.com/angelicacodes/book_recommendation/blob/main/reports/Visualizations/book_ratings.png)
+![histogram](https://github.com/angelicacodes/book_recommendation/blob/main/reports/Visualizations/book_ratings.png width="200" height="200")
 
+In this histogram we can see that there are more ratings distributed among more books.
 
 
 ## Data Preparation
@@ -134,7 +135,6 @@ What does this mean for businesses that have and are pivoting to e-commerce duri
 For this reason, I want to continuing to find ways (such as hyperparameter tuning, more robust grid search, and adding more data) to decrease the RMSE. Though this model works for proof of concept,  a lower RMSE is advisable before it is put into production.
 
 
-
 ## Potential Next Steps
 
 <img align= "right" src="https://github.com/angelicacodes/book_recommendation/blob/28bd65dbd927984b7a69eb39f38729856d312e68/reports/Visualizations/laura-kapfer-hmCMUZKLxa4-unsplash.jpg" width="150" height="300">
@@ -146,7 +146,9 @@ Further phases could include:
 - Deployment of model to interactive form 
 
 
-## Additional sources
+
+
+
 
 Image credits in order of appearance:
 - Photo by [Susan Yin](https://unsplash.com/@syinq?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
