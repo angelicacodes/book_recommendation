@@ -64,7 +64,7 @@ Ratings consist of 1-5 stars with 1 being the lowest and 5 being the highest pos
 
 See data/scrape/final/scrapping.ipynb for the functions and code used to scrape the data.
 
-I opted for scrapping the data because the datasets available with similar data were oudated and did not have features such as text reviews, page length, or genre-- features that I wanted to have available for a phase 2 of this project which includes content based filtering. 
+I opted for scrapping the data with Selenium because the datasets available with similar data were oudated and did not have features such as text reviews, page length, or genre-- features that I wanted to have available for a phase 2 of this project which includes content based filtering. 
 
 I was not able to use the Goodreads API because they did not provide one that enabled me to get the data that I needed--books connected to individual ratings, the ratings in the APIs availalble were aggregates.
 
