@@ -84,7 +84,11 @@ At a very basic level, what the model does is fill in the missing ratings with e
 
 It goes through each of the users and sees which users are similar to you based on ratings you have in common. 
 
+![matrix](https://github.com/angelicacodes/book_recommendation/blob/main/reports/Visualizations/books.gif)
+
 The model learns from those ratings that are already there.
+
+
 
 ##### Distribution of Data
 
