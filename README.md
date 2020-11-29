@@ -53,9 +53,11 @@ Citing Schrage's book, [Strategy+Business magazine](https://www.strategy-busines
 
 To build the recommendation system I have scraped the data from [Goodreads](https://www.goodreads.com/)--the largest community for reviewing and recommending books. This data will be used to train and test the model.
 
-There the a total of 54,387 ratings
-The ratings come from 28,959 reviewers
-There are a total of 484 books being reviewed
+* There the a total of 54,387 ratings
+
+* The ratings come from 28,959 reviewers
+
+* There are a total of 484 books being reviewed
 
 Ratings consist of 1-5 stars with 1 being the lowest and 5 being the highest positive rating. 
 
@@ -63,7 +65,7 @@ Ratings consist of 1-5 stars with 1 being the lowest and 5 being the highest pos
 
 See data/scrape/final/scraping.ipynb for the functions and code used to scrape the data.
 
-I opted for scraping the data with Selenium because the datasets available with similar data were oudated and did not have features such as text reviews, page length, or genre-- features that I wanted to have available for a phase 2 of this project which includes content based filtering. 
+I opted for scraping the data with [Selenium](https://pypi.org/project/selenium/) because the datasets available with similar data were outdated and did not have features such as text reviews, page length, or genre-- features that I want to have available for a phase 2 of this project which includes content based filtering. 
 
 I was not able to use the Goodreads API because they did not provide one that enabled me to get the data that I needed--books connected to individual ratings, the ratings in the APIs availalble were aggregates.
 
@@ -118,13 +120,15 @@ During the data cleaning process I:
 ## Modeling
 
 
-To build the model I am using [PySpark's Alternating Least Squares(ALS)](https://spark.apache.org/docs/2.2.0/ml-collaborative-filtering.html) which works well with sparce matrices. The ratings dataframe is  99.60% empty.
+To build the model I am using [PySpark's Alternating Least Squares(ALS)](https://spark.apache.org/docs/2.2.0/ml-collaborative-filtering.html) which works well with sparse matrices. The ratings dataframe is  99.60% empty.
 
-After building a first simple model(FSM) I itterate on that model adding and adjusting hyperparameters. However rather than continuing to iterate on this model by tesing with the hyperparameters by hand, I use spark's parameter grid builder to test out different parameters and cross validation to test the best model. The results from this give me a best model estimator with the following parameters:
+After building a first simple model(FSM) I iterate on that model adding and adjusting hyperparameters. However rather than continuing to iterate on this model by testing with the hyperparameters by hand, I use spark's parameter grid builder to test out different parameters and cross validation to test the best model. The results from this give me a best model estimator with the following parameters:
 
-The best model Rank is:  30
-The best model MaxIter is: 20
-The best RegParam: 0.1
+* The best model Rank is:  30
+
+* The best model MaxIter is: 20
+
+* The best RegParam: 0.1
 
 After building a new model with these parameters, I receive the best RMSE to date.
 
