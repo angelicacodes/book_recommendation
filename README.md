@@ -15,7 +15,7 @@ The home repository contains the project environment and information about this 
 [Final Report Notebook](notebooks/final)
 
 ### Reports
-[Executive Summary](reports/Executive Summary)
+[Executive Summary](reports/Executive_Summary)
 
 [Visualizations](reports/Visualizations)
 
@@ -69,7 +69,9 @@ This model was built using the following:
 * Python: 3.6.9
 * PySpark: 2.4.4
 
-To replicate the environment using the same libraries and versions used here, including Python and PySpark, [create an environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) using the provided .yml file.  
+To replicate the environment using the same libraries and versions used here, including Python and PySpark, [create an environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) using the provided .yml file.
+
+For specific instructions on how to begin a Spark session, see the technical notebook in notebooks/final/final.ipynb
 
 
 ### Obtaining the data
