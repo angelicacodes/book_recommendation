@@ -36,7 +36,7 @@ This ReadMe is divided into sections addressing each step of the Cross-Industry 
 
 ## Business Understanding 
 
-How can reviews improve sales? How are our customers making choices on what items to buy? Choice is the act of picking or deciding between two or more possibilities. But how about when there are sometimes hundreds of thousands of possibilities? From Amazon to Netflix to Yelp, we have seen businesses capitalize and address this choice overload by providing recommendations to their customers.
+How can reviews improve sales? How are our customers making choices on what items to buy? Choice is the act of picking or deciding between two or more possibilities. But how about when there are sometimes hundreds of thousands of possibilities? From Amazon to Netflix to Yelp, we have seen businesses capitalize and address this [choice overload](https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/choice-overload/) by providing recommendations to their customers.
 
 <img align= "right" src="https://github.com/angelicacodes/book_recommendation/blob/main/reports/Visualizations/susan-yin-2JIvboGLeho-unsplash.jpg" width="400" height="200">
 
@@ -60,6 +60,17 @@ To build the recommendation system I have scraped the data from [Goodreads](http
 * There are a total of 484 books being reviewed
 
 Ratings consist of 1-5 stars with 1 being the lowest and 5 being the highest positive rating. 
+
+### Reproducing environment
+
+This model was built using the following:
+
+* Operating system: iOS Catalina 10.15.4
+* Python: 3.6.9
+* PySpark: 2.4.4
+
+To replicate the environment using the same libraries and versions used here, including Python and PySpark, [create an environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) using the provided .yml file.  
+
 
 ### Obtaining the data
 
