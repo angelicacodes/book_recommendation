@@ -84,9 +84,9 @@ I was not able to use the Goodreads API because they did not provide one that en
 
 As mentioned above, the dataset set includes several features including book title, author name, page length, ratings, users, and text ratings.  For the purposes of this phase 1 of the project, the focus will be on:
 
-- **book
-- **user
-- **rating
+- **book**
+- **user**
+- **rating**
 
 Book and user id's were strings that will be converted into numerical form, rating is already in integer type.
 
