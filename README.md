@@ -44,6 +44,8 @@ Just like in this row upon row of books—how do we best chose one if we haven�
 
 The Covid-19 pandemic has shown a pivot by businesses of all sizes across many industries.Many did not have a website before, but now do. Businesses have pivoted to include e-commerce. There are examples, such as this local San Francisco neighborhood bookstore, [Folio](https://www.foliosf.com/) that increased their online selling precence after the start of the pandemic.  Or this start up, [Bookshop](https://bookshop.org/) that launched in early 2020, focusing on selling books online from independent bookstores. According to the [Harvard Business Review(HBR)](https://hbr.org/2020/07/how-businesses-have-successfully-pivoted-during-the-pandemic), one of the successful conditions of a business pivot--"pivoting is a lateral move that creates enough value for the customer and the firm to share." What are the consequences for operating in "business as usual" terms in a new normal?  HBR tells us that, "it does weed out business models that fail to pivot toward the new reality." Not only during pandemics, but business models are having to adapt and change to different realities as they grow, as time changes.
 
+This book recommendation system can be a tool that could be used by bookstores and booksellers who find themselves depending on e-commerce now more than ever.
+
 In his book, [Recommendation Engines](https://mitpress.mit.edu/books/recommendation-engines), [Michael Schrage](http://ide.mit.edu/about-us/people/michael-schrage), visiting fellow at the MIT Sloan School of Management’s Initiative on the Digital Economy writes, “Recommendation inspires innovation: that serendipitous suggestion—that surprise—not only changes how you see the world, it transforms how you see—and understand—yourself. Successful recommenders promote discovery of the world and one’s self,recommenders aren’t just about what we might want to buy; they’re about who we might want to become.” 
 
 Citing Schrage's book, [Strategy+Business magazine](https://www.strategy-business.com/article/What-people-like-you-like?gko=d2e94) points that about **30% of e-commerce revenues around the world come from recommendations.**  
@@ -178,8 +180,8 @@ Further phases could include:
 
 
 Image credits in order of appearance:
-- Photo by [Susan Yin](https://unsplash.com/@syinq?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
-- Photo by [Laura Kapfer](https://unsplash.com/@kapfii?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
+- Row of bookshelves-- Photo by [Susan Yin](https://unsplash.com/@syinq?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
+- Books on ground-- Photo by [Laura Kapfer](https://unsplash.com/@kapfii?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
 
 
 
