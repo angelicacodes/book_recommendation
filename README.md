@@ -6,6 +6,8 @@ During the Covid-19 pandemic, businesses of all sizes found themselves needing t
 
 This book recommendation system is a proof of concept to encourage the new businesses that have launched online to incorporate a rating and recommender system.
 
+ProxLib is a shortened version of "proximus liber" in Latin which means "next book".
+
 
 ## TABLE OF CONTENTS
 
