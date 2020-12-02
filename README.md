@@ -1,4 +1,7 @@
+<img align= "left" src="https://github.com/angelicacodes/book_recommendation/blob/main/reports/Visualizations/logo.jpeg" width="100" height="60">
+
 # ProxLib: A Book Recommendation System
+
 During the Covid-19 pandemic, businesses of all sizes found themselves needing to pivot how they operated on a daily basis. This was especially true for those that did not have an e-commerce presence. 
 
 This book recommendation system is a proof of concept to encourage the new businesses that have launched online to incorporate a rating and recommender system.
