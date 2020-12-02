@@ -125,6 +125,8 @@ This dataset does not have the long tail problem. There are so many options for 
 
 In this histogram we can see that there are more ratings distributed among more books.
 
+A reminder that this data is only a subset of what is available. If I was to download all of the available data from Goodreads, then there may be more of a long tail than we see here.
+
 
 ## Data Preparation
 
