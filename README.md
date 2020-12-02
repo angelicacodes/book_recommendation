@@ -151,9 +151,9 @@ Best RMSE: 1.22
 
 ## Evaluation
 
-<img src="https://github.com/angelicacodes/book_recommendation/blob/main/reports/Visualizations/Screen%20Shot%202020-11-25%20at%2011.42.46%20AM.png" width="400" height="100">
+<img align= "left" src="https://github.com/angelicacodes/book_recommendation/blob/main/reports/Visualizations/star_rating.png" width="300" height="75">
 
-To evaluate how well this model is predicting, as mentioned before, I’ve chosen to use the Root Mean Square Error(RMSE) metric.  This metric essentially let’s us know how far an observed value is from the model’s prediction.
+To evaluate how well this model is predicting, as mentioned before, I’ve chosen to use the Root Mean Square Error(RMSE) metric. This metric essentially let’s us know how far an observed value is from the model’s prediction.
 
 For example, the best model RMSE I have so far is of 1.2. This means that the predicted value could have a standard deviation of + or - 1.2 the actual value. 
 
